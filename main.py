@@ -1,6 +1,6 @@
 from algorithms.caesar_cipher import CaesarCipher
 from algorithms.rsa import RSA
-from algorithms.merkle import MerkleHellmanKnapsack
+from algorithms.merkle2 import MerkleHellmanKnapsack
 import os, time, psutil
 
 def run_caesar_cipher(text):
@@ -28,10 +28,10 @@ def run_caesar_cipher(text):
     print("Memory used for decryption: {} KB".format(after_memory - before_memory))
     print("Time taken for decryption: {:.5f} seconds".format(t2 - t1))
 
-    print("Encrypted text: ", encrypted_text)
-    print("")
-    print("Decrypted text: ", decrypted_text)
-    print("")
+    # print("Encrypted text: ", encrypted_text)
+    # print("")
+    # print("Decrypted text: ", decrypted_text)
+    # print("")
 
 
 
@@ -60,10 +60,10 @@ def run_rsa(text):
     print("Memory used for decryption: {} KB".format(after_memory - before_memory))
     print("Time taken for decryption: {:.5f} seconds".format(t2 - t1))
 
-    print("Encrypted text: ", encrypted_text)
-    print("")
-    print("Decrypted text: ", decrypted_text)
-    print("")
+    # print("Encrypted text: ", encrypted_text)
+    # print("")
+    # print("Decrypted text: ", decrypted_text)
+    # print("")
 
 
 def run_knapsack(text):
@@ -91,10 +91,10 @@ def run_knapsack(text):
     print("Memory used for decryption: {} KB".format(after_memory - before_memory))
     print("Time taken for decryption: {:.5f} seconds".format(t2 - t1))
 
-    print("Encrypted text: ", encrypted_text)
-    print("")
-    print("Decrypted text: ", decrypted_text)
-    print("")
+    # print("Encrypted text: ", encrypted_text)
+    # print("")
+    # print("Decrypted text: ", decrypted_text)
+    # print("")
 
 
 def get_option_input():
